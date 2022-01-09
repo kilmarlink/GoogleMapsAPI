@@ -1,0 +1,98 @@
+
+/* Recursos tipográficos */
+* {
+    --body-font: "DM Sans", Helvetica, Arial, sans-serif;
+    --title-font: "DM Sans", Helvetica, Arial, sans-serif;
+}
+
+body{
+    /* The image used */
+    background-image: url("../img/fondo.jpg") ;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    padding-top: 70px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+}
+
+p.lead {
+    font-size: 18px;
+    line-height: 1.7em;
+    margin-top: 0;
+    font-weight: 400;
+}
+
+.box-rounded {
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    padding: 40px;
+}
+
+/* Color de titulos*/
+
+.text-light h1 {
+    color: #fff;
+}
+
+.info_content h3 {
+    color: #000000;
+}
+
+/* Tamaño de titulos*/
+
+h1,
+.h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    line-height: 1.2em;
+    letter-spacing: -1px;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.form-border input[type=text],
+.form-border textarea,
+.form-underline input[type=email],
+.form-border input[type=password],
+.form-border input[type=date],
+.form-border select {
+    padding: 8px;
+    margin-bottom: 20px;
+    border: none;
+    border: solid 1px #cccccc;
+    background: none;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    height: auto;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    color: #333;
+}
+
+h1 {
+    margin-top: 0;
+    font-family: var(--title-font);
+    font-weight: 700;
+    color: #0d0c22;
+}
+
+.btn-color{
+    background: #8364E2;
+    color: white;
+}
